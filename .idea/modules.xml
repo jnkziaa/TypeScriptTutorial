@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TypeScriptTutorial.iml" filepath="$PROJECT_DIR$/TypeScriptTutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearningTypescript.iml" filepath="$PROJECT_DIR$/LearningTypescript.iml" />
     </modules>
   </component>
 </project>

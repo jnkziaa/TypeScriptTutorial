@@ -1,6 +1,28 @@
 //const anchor = document.querySelector('a')!;
 
 //console.log(anchor.href);
+interface  isPerson{
+    personName:string,
+    age:number,
+    speak(a:string) : void,
+    spend(a:number) : number;
+}
+
+const me : isPerson = {
+    personName: "john",
+    age: 29,
+    speak(a: string) {
+        console.log(`${this.personName} said ${a}`);
+    },
+    spend(a: number): number {
+        return a;
+    }
+};
+
+me.speak("Hello");
+
+console.log(me);
+
 import  { Invoice } from "./classes/Invoice.js"
 
 const invOne = new Invoice("Luffy", "Fixing Merry", 150000);
